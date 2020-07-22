@@ -2,6 +2,7 @@
   <div class="container">
     <router-view></router-view>
     <div class="router-link">
+      <el-button>test</el-button>
       <router-link to="/index/sub">第一个子路由</router-link>
       <router-link to="/index/subTwo">第二个子路由</router-link>
       <a @click="gotoThirdPage">点击事件跳转路由</a>
